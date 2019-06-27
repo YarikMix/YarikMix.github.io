@@ -274,7 +274,7 @@ $(".btn").on("click",function(){
 					lastNumberSystem = "rim";
 					return;
 				} else {
-					$(".result").html("Введите в первое поле корректное число!");
+					$(".result").html("Введите корректные числа!");
 				}
 			} 
 
@@ -371,7 +371,7 @@ $(".btn").on("click",function(){
 						lastNumberSystem = numberSystem2;
 					}
 				} else {
-					$(".result").html("Введите в первое поле число!");
+					$(".result").html("Введите корректные числа!");
 				}
 			}
 		} else{
@@ -461,7 +461,7 @@ $(".btn").on("click",function(){
 			$("#resultCC option[class='rim']").prop("selected", true);
 			lastNumberSystem = "rim";
 		} else{
-			$(".result").html("Введите корректные числа");
+			$(".result").html("Введите корректные числа!");
 		}
 
 		//Сумма не римских систем счисления
@@ -476,7 +476,7 @@ $(".btn").on("click",function(){
 					$("#resultCC option[class='16']").prop("selected", true);
 					lastNumberSystem = 16;
 				} else{
-					$(".result").html("Пожалуйста введите числа в 16 CC!");
+					$(".result").html("Введите корректные числа!");
 				}
 			}
 			if(numberSystem1 == 16 && numberSystem2 != 16){
@@ -497,7 +497,7 @@ $(".btn").on("click",function(){
 						lastNumberSystem = 16;
 					}
 				} else {
-					$(".result").html("Пожалуйста введите числа");
+					$(".result").html("Введите корректные числа!");
 				}
 			} 
 			if(numberSystem1 != 16 && numberSystem2 == 16){
@@ -518,7 +518,7 @@ $(".btn").on("click",function(){
 						lastNumberSystem = numberSystem1;
 					}
 				} else {
-					$(".result").html("Пожалуйста введите числа");
+					$(".result").html("Введите корректные числа!");
 				}
 			}
 			if(numberSystem1 != 16 && numberSystem2 != 16){
@@ -563,7 +563,7 @@ $(".btn").on("click",function(){
 						lastNumberSystem = numberSystem1;
 					}	
 				} else{
-					$(".result").html("Пожалуйста введите числа");
+					$(".result").html("Введите корректные числа!");
 				}
 			}
 		}
@@ -738,7 +738,7 @@ $(".btn").on("click",function(){
 					$("#resultCC option[class='16']").prop("selected", true);
 					lastNumberSystem = 16;
 				} else{
-					$(".result").html("Пожалуйста введите числа в 16 CC!");
+					$(".result").html("Введите корректные числа!");
 				}
 			}
 
@@ -760,7 +760,7 @@ $(".btn").on("click",function(){
 						lastNumberSystem = 16;
 					}
 				} else {
-					$(".result").html("Пожалуйста введите числа");
+					$(".result").html("Введите корректные числа!");
 				}
 			} 
 
@@ -782,7 +782,7 @@ $(".btn").on("click",function(){
 						lastNumberSystem = numberSystem1;
 					}
 				} else {
-					$(".result").html("Пожалуйста введите числа");
+					$(".result").html("Введите корректные числа!");
 				}
 			}
 			if(numberSystem1 != 16 && numberSystem2 != 16){
@@ -827,7 +827,7 @@ $(".btn").on("click",function(){
 						lastNumberSystem = numberSystem1;
 					}	
 				} else{
-					$(".result").html("Пожалуйста введите корректные числа");
+					$(".result").html("Введите корректные числа!");
 				}
 			}
 
@@ -934,7 +934,7 @@ $(".btn").on("click",function(){
 					$("#resultCC option[class='16']").prop("selected", true);
 					lastNumberSystem = 16;
 				} else{
-					$(".result").html("Пожалуйста введите числа в 16 CC!");
+					$(".result").html("Введите корректные числа!");
 				}
 			}
 
@@ -956,7 +956,7 @@ $(".btn").on("click",function(){
 						lastNumberSystem = 16;
 					}
 				} else {
-					$(".result").html("Пожалуйста введите числа");
+					$(".result").html("Введите корректные числа!");
 				}
 			} 
 
@@ -978,7 +978,7 @@ $(".btn").on("click",function(){
 						lastNumberSystem = numberSystem1;
 					}
 				} else {
-					$(".result").html("Пожалуйста введите числа");
+					$(".result").html("Введите корректные числа!");
 				}
 			}
 
@@ -1024,7 +1024,7 @@ $(".btn").on("click",function(){
 						lastNumberSystem = numberSystem1;
 					}	
 				} else{
-					$(".result").html("Пожалуйста введите числа");
+					$(".result").html("Введите корректные числа!");
 				}
 			}
 
@@ -1117,7 +1117,7 @@ $(".btn").on("click",function(){
 				$("#resultCC option[class='rim']").prop("selected", true);
 				lastNumberSystem = "rim";
 			} else{
-				$(".result").html("Введите корректные числа");
+				$(".result").html("Введите корректные числа!");
 			}
 
 			//Деление не римских систем счисления
@@ -1133,7 +1133,7 @@ $(".btn").on("click",function(){
 						$("#resultCC option[class='16']").prop("selected", true);
 						lastNumberSystem = 16;
 					} else{
-						$(".result").html("Пожалуйста введите числа в 16 CC!");
+						$(".result").html("Введите корректные числа!");
 					}
 				}
 
@@ -1155,7 +1155,7 @@ $(".btn").on("click",function(){
 							lastNumberSystem = 16;
 						}
 					} else {
-						$(".result").html("Пожалуйста введите числа");
+						$(".result").html("Введите корректные числа!");
 					}
 				} 
 
@@ -1177,7 +1177,7 @@ $(".btn").on("click",function(){
 							lastNumberSystem = numberSystem1;
 						}
 					} else {
-						$(".result").html("Пожалуйста введите числа");
+						$(".result").html("Введите корректные числа!");
 					}
 				}
 
