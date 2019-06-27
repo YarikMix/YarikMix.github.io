@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Калькулятор систем счисления</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">	
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<h1>Калькулятор систем счисления</h1>
+		</header>
+	<main>
+		<div class="content">
+			<div class="top-block">
+				<div class="CC">
+					Показать результат в 
+					<pre>  </pre>
+					<select id="resultCC">
+						<option class="2">Двоичная</option>
+						<option class="8">Восьмиричная</option>
+						<option class="10" selected>Десятичная</option>
+						<option class="16">Шестнадцатиричная</option>
+						<option class="rim">Римская</option>
+					</select><pre> CC  </pre> 
+				</div>
+				<div class="result"></div>
+			</div>
+			
+			<div class="control">
+				<div class="control-num-1">
+						<input type="text" placeholder="Первое число" id="num1">
+					<div class="numberSystem">
+						<h3>Система счисления:</h3>
+						<select class="choose" id="choose1">
+							<option class="2">Двоичная</option>
+							<option class="8">Восьмиричная</option>
+							<option class="10" selected>Десятичная</option>
+							<option class="16">Шестнадцатиричная</option>
+							<option class="rim">Римская</option>
+						</select>
+					</div>
+				</div>
+				<div class="btns">
+					<button class="ripple btn">Вычислить</button>
+					<select class="change">
+						<option class="change">Перевести</option>
+						<option class="sum">Сложить</option>
+						<option class="subtract">Вычесть</option>
+						<option class="multiply">Умножить</option>
+						<option class="split">Разделить</option>
+					</select> 
+				</div>
+				
+				<div class="control-num-2">
+						<input type="text" placeholder="Второе число" id="num2">
+					<div class="numberSystem">
+						<h3>Система счисления:</h3>
+						<select class="choose" id="choose2">
+							<option class="2">Двоичная</option>
+							<option class="8">Восьмиричная</option>
+							<option class="10" selected>Десятичная</option>
+							<option class="16">Шестнадцатиричная</option>
+							<option class="rim">Римская</option>
+						</select>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer  onclick="window.open('https://vk.com/id345691818','_blank')"w>
+			<h3>"Я не несу ответственности за результаты алгоритмов этого калькулятора , 
+			используйте его на свой страх и риск" - <span>Автор</span></h3>
+			<img src="img/yarik.jpg">
+	</footer>
+
+	</div>
+	
+	
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
